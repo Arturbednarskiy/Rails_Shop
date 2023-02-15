@@ -13,6 +13,7 @@ class CategoriesController < ApplicationController
     Category.ordered
   end
 
+
   def resource
     collection.find(params[:id])
   end
